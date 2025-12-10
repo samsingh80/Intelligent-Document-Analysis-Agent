@@ -1,0 +1,13 @@
+{
+  "name": "bpfs-agent-ui",
+  "version": "1.0.0",
+  "description": "BPFS Agent UI5 Application",
+  "scripts": {
+    "start": "ui5 serve --port 8080",
+    "build": "ui5 build --clean-dest --dest dist"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0",
+    "ui5-task-zipper": "^3.1.3"
+  }
+}

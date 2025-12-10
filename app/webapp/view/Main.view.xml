@@ -1,0 +1,197 @@
+<mvc:View
+    controllerName="bpfsagentui.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns:layout="sap.ui.layout"
+    xmlns:form="sap.ui.layout.form"
+    xmlns:u="sap.ui.unified"
+    xmlns="sap.m"
+    displayBlock="true">
+    
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <BusyDialog
+                id="busyDialog"
+                title="AI Analysis in Progress"
+                text="Analyzing your documents with AI powered system. Please stand by..."
+                showCancelButton="false"/>
+            
+            <VBox class="sapUiSmallMargin">
+                <!-- Header Section -->
+                <Panel headerText="BPFS Document Comparison Agent" class="sapUiResponsiveMargin">
+                    <content>
+                        <VBox class="sapUiSmallMargin">
+                            <Text text="Upload your Functional Specification (FS) document and Joule response to compare and analyze alignment across multiple categories." class="sapUiTinyMarginBottom"/>
+                            <MessageStrip
+                                text="Supported formats: PDF, DOCX, DOC, TXT (Max size: 10MB)"
+                                type="Information"
+                                showIcon="true"/>
+                        </VBox>
+                    </content>
+                </Panel>
+
+                <!-- Upload Section -->
+                <Panel headerText="Document Upload" class="sapUiResponsiveMargin">
+                    <content>
+                        <form:SimpleForm
+                            editable="true"
+                            layout="ResponsiveGridLayout"
+                            labelSpanXL="3"
+                            labelSpanL="3"
+                            labelSpanM="3"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="4"
+                            emptySpanL="4"
+                            emptySpanM="4"
+                            emptySpanS="0"
+                            columnsXL="1"
+                            columnsL="1"
+                            columnsM="1"
+                            singleContainerFullSize="false">
+                            <form:content>
+                                <Label text="FS Document" required="true"/>
+                                <u:FileUploader
+                                    id="fsFileUploader"
+                                    name="fsDocument"
+                                    uploadUrl=""
+                                    tooltip="Upload FS Document"
+                                    fileType="pdf,docx,doc,txt"
+                                    maximumFileSize="10"
+                                    change="onFsFileChange"
+                                    width="100%"/>
+                                
+                                <Label text="Joule Response" required="true"/>
+                                <u:FileUploader
+                                    id="jouleFileUploader"
+                                    name="jouleResponse"
+                                    uploadUrl=""
+                                    tooltip="Upload Joule Response"
+                                    fileType="pdf,docx,doc,txt"
+                                    maximumFileSize="10"
+                                    change="onJouleFileChange"
+                                    width="100%"/>
+                            </form:content>
+                        </form:SimpleForm>
+
+                        <Toolbar>
+                            <ToolbarSpacer/>
+                            <Button
+                                text="Compare Documents"
+                                type="Emphasized"
+                                icon="sap-icon://compare"
+                                press="onCompare"
+                                enabled="{= ${/fsFileUploaded} &amp;&amp; ${/jouleFileUploaded} }"/>
+                            <Button
+                                text="Clear"
+                                icon="sap-icon://clear-all"
+                                press="onClear"/>
+                        </Toolbar>
+                    </content>
+                </Panel>
+
+                <!-- Results Section -->
+                <Panel
+                    id="resultsPanel"
+                    headerText="Comparison Results"
+                    visible="{= ${/comparisonResult} !== undefined }"
+                    class="sapUiResponsiveMargin">
+                    <content>
+                        <VBox class="sapUiSmallMargin">
+                            <!-- Overall Score -->
+                            <HBox alignItems="Center" class="sapUiTinyMarginBottom">
+                                <Title text="Overall Score: " level="H3"/>
+                                <ObjectNumber
+                                    number="{/comparisonResult/overallScore}"
+                                    unit="/100"
+                                    state="{= ${/comparisonResult/overallScore} >= 80 ? 'Success' : ${/comparisonResult/overallScore} >= 60 ? 'Warning' : 'Error' }"
+                                    emphasized="true"
+                                    class="sapUiTinyMarginBegin"/>
+                            </HBox>
+
+                            <!-- Summary -->
+                            <MessageStrip
+                                text="{/comparisonResult/summary}"
+                                type="{= ${/comparisonResult/overallScore} >= 80 ? 'Success' : ${/comparisonResult/overallScore} >= 60 ? 'Warning' : 'Error' }"
+                                showIcon="true"
+                                class="sapUiSmallMarginBottom"/>
+
+                            <!-- Category Results Table -->
+                            <Table
+                                id="categoryTable"
+                                items="{/comparisonResult/categories}"
+                                class="sapUiResponsiveMargin">
+                                <columns>
+                                    <Column width="3em">
+                                        <Text text="#"/>
+                                    </Column>
+                                    <Column width="12em">
+                                        <Text text="Category"/>
+                                    </Column>
+                                    <Column width="6em" hAlign="Center">
+                                        <Text text="Weight"/>
+                                    </Column>
+                                    <Column width="6em" hAlign="Center">
+                                        <Text text="FS Score"/>
+                                    </Column>
+                                    <Column width="7em" hAlign="Center">
+                                        <Text text="Weighted"/>
+                                    </Column>
+                                    <Column width="8em" hAlign="Center">
+                                        <Text text="Status"/>
+                                    </Column>
+                                    <Column>
+                                        <Text text="Key Finding"/>
+                                    </Column>
+                                </columns>
+                                <items>
+                                    <ColumnListItem>
+                                        <cells>
+                                            <Text text="{id}"/>
+                                            <Text text="{name}" class="sapUiTinyMarginEnd"/>
+                                            <ObjectNumber
+                                                number="{= ${weight} * 100 }"
+                                                unit="%"
+                                                emphasized="false"/>
+                                            <ObjectNumber
+                                                number="{path: 'fsScore', formatter: '.formatter.formatScore'}"
+                                                emphasized="false"/>
+                                            <ObjectNumber
+                                                number="{weightedScore}"
+                                                emphasized="false"/>
+                                            <ObjectStatus
+                                                text="{status}"
+                                                state="{= ${status} === 'EXCELLENT' ? 'Success' : ${status} === 'GOOD' ? 'Success' : 'Error' }"
+                                                icon="{= ${status} === 'EXCELLENT' ? 'sap-icon://status-positive' : ${status} === 'GOOD' ? 'sap-icon://status-positive' : 'sap-icon://status-critical' }"/>
+                                            <Text text="{keyFinding}"/>
+                                        </cells>
+                                    </ColumnListItem>
+                                </items>
+                            </Table>
+
+                            <!-- Document Statistics -->
+                            <Panel headerText="Document Statistics" expandable="true" expanded="false" class="sapUiSmallMarginTop">
+                                <content>
+                                    <layout:Grid defaultSpan="L6 M6 S12">
+                                        <VBox class="sapUiSmallMargin">
+                                            <Title text="FS Document" level="H5"/>
+                                            <Text text="Words: {/comparisonResult/documentStats/fsDocument/words}"/>
+                                            <Text text="Lines: {/comparisonResult/documentStats/fsDocument/lines}"/>
+                                            <Text text="Characters: {/comparisonResult/documentStats/fsDocument/characters}"/>
+                                        </VBox>
+                                        <VBox class="sapUiSmallMargin">
+                                            <Title text="Joule Response" level="H5"/>
+                                            <Text text="Words: {/comparisonResult/documentStats/jouleResponse/words}"/>
+                                            <Text text="Lines: {/comparisonResult/documentStats/jouleResponse/lines}"/>
+                                            <Text text="Characters: {/comparisonResult/documentStats/jouleResponse/characters}"/>
+                                        </VBox>
+                                    </layout:Grid>
+                                </content>
+                            </Panel>
+                        </VBox>
+                    </content>
+                </Panel>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

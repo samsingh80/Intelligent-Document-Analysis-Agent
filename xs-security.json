@@ -1,0 +1,47 @@
+{
+  "xsappname": "bpfs-agent",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Display",
+      "description": "Display"
+    },
+    {
+      "name": "$XSAPPNAME.Upload",
+      "description": "Upload documents"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "Viewer",
+      "description": "View documents",
+      "scope-references": [
+        "$XSAPPNAME.Display"
+      ]
+    },
+    {
+      "name": "Uploader",
+      "description": "Upload and compare documents",
+      "scope-references": [
+        "$XSAPPNAME.Display",
+        "$XSAPPNAME.Upload"
+      ]
+    }
+  ],
+  "role-collections": [
+    {
+      "name": "BPFS_Agent_Viewer",
+      "description": "BPFS Agent Viewer",
+      "role-template-references": [
+        "$XSAPPNAME.Viewer"
+      ]
+    },
+    {
+      "name": "BPFS_Agent_Uploader",
+      "description": "BPFS Agent Uploader",
+      "role-template-references": [
+        "$XSAPPNAME.Uploader"
+      ]
+    }
+  ]
+}
