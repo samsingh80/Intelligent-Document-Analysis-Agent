@@ -1,0 +1,2 @@
+sap.ui.define([],function(){"use strict";return{formatScore:function(t){if(t===null||t===undefined){return"0.0"}return parseFloat(t).toFixed(1)},getStatusState:function(t){switch(t){case"EXCELLENT":return"Success";case"GOOD":return"Success";case"CRITICAL GAP":return"Error";default:return"None"}},getStatusIcon:function(t){switch(t){case"EXCELLENT":case"GOOD":return"sap-icon://status-positive";case"CRITICAL GAP":return"sap-icon://status-critical";default:return"sap-icon://status-inactive"}}}});
+//# sourceMappingURL=formatter.js.map

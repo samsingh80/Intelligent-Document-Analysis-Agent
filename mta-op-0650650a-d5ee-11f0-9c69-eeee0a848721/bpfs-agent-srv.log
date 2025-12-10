@@ -1,0 +1,1120 @@
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:05.335439] Uploading app package for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:05.626463] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:14.903566] Stopping app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:15.045822] Cell 75f4201f-64c7-4864-888f-65c5484df6a5 stopping instance c629559b-fb76-4e8b-7cef-e823 (STDOUT, CELL)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:15.260652] Creating build for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:15.747508] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:15.772778] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:15.772817] Cell 48e71ce9-9c40-4a11-bc2a-a532a471f678 creating container for instance d27834cd-2564-4843-aaba-77f960b43297 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:16.094795] Security group rules were updated (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:16.157315] Cell 48e71ce9-9c40-4a11-bc2a-a532a471f678 successfully created container for instance d27834cd-2564-4843-aaba-77f960b43297 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:16.324054] Downloading app package... (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:16.324066] Downloading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:16.363299] Downloaded build artifacts cache (220B) (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:17.066379] Downloaded app package (11.8M) (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:17.125707] -----> Nodejs Buildpack version 1.8.39 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:17.345868] -----> Bootstrapping python (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:17.345890] -----> Installing python 3.11.13 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:17.345932] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/28094bfda36b8c744219390b5b628ee3/python_3.11.13_linux_x64_cflinuxfs4_49160849.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:20.792196] -----> Installing binaries (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:20.792315] engines.node (package.json): >=18.0.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:20.792330] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:20.792336] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:20.792345] -----> Installing node 24.3.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:20.792444] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/54b65851559bd58ad3fd2aac68936cd9/node_24.3.0_linux_x64_cflinuxfs4_b6ec3828.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:22.928186] Using default npm version: 11.4.2 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:22.928200] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:22.928204] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/ff849eb7696d3a7f463752a272c9a88e/yarn_1.22.22_linux_noarch_any-stack_83bda680.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.266262] Installed yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.266279] -----> Creating runtime environment (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.267490] NODE_ENV=production (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.267500] NODE_HOME=/tmp/contents2918519082/deps/0/node (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.267503] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.267505] NODE_VERBOSE=false (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.267507] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.267513] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.267545] -----> Building dependencies (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.267550] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.267635] Rebuilding any native modules (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.872978] rebuilt dependencies successfully (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.874097] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.874110] npm notice New minor version of npm available! 11.4.2 -> 11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.874114] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.874116] npm notice To update run: npm install -g npm@11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.874119] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:23.908513] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:24.469249] up to date in 501ms (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:24.469401] 22 packages are looking for funding (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:24.469479] run `npm fund` for details (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:25.071839] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:36.454694] Exit status 0 (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:36.454739] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:36.454778] Uploading droplet... (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:36.454790] Uploading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:36.482267] Uploaded build artifacts cache (225B) (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:37.341627] Creating droplet for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:41.560586] Uploaded droplet (67.4M) (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:41.573976] Uploading complete (STDOUT, STG)#
+#2025 12 10 17:32:11.696#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:41.899270] Cell 48e71ce9-9c40-4a11-bc2a-a532a471f678 stopping instance d27834cd-2564-4843-aaba-77f960b43297 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:41.899297] Cell 48e71ce9-9c40-4a11-bc2a-a532a471f678 destroying container for instance d27834cd-2564-4843-aaba-77f960b43297 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:43.681614] Cell 48e71ce9-9c40-4a11-bc2a-a532a471f678 successfully destroyed container for instance d27834cd-2564-4843-aaba-77f960b43297 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:45.076219] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({:droplet_guid=>"e5220e65-1171-41ae-b03c-e457f6a92eef"}) (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:45.595114] Creating revision for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:45.673444] Starting app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:45.922216] Cell 0a94dc72-cf05-4511-a7be-41f7f13fb18f creating container for instance 695f272b-b6c3-4c86-7d14-14f4 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:46.300483] Security group rules were updated (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:46.358309] Cell 0a94dc72-cf05-4511-a7be-41f7f13fb18f successfully created container for instance 695f272b-b6c3-4c86-7d14-14f4 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:46.548689] Downloading droplet... (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:49.933102] Downloaded droplet (67.4M) (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:49.933300] Starting health monitoring of container (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:49.994336] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:50.185405] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:50.529391] > bpfs-agent-srv@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:50.529407] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:50.781956] BPFS Agent server running on port 8080 (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:50.782212] Environment: production (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:52.578624] Container became healthy (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:21:52.610152] Process became ready with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 payload: {"instance"=>"695f272b-b6c3-4c86-7d14-14f4", "index"=>0, "cell_id"=>"0a94dc72-cf05-4511-a7be-41f7f13fb18f", "ready"=>true, "version"=>"dd9c0c61-9b43-45e8-b9eb-43f20edeb68e"} (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:22:21.132745] Cell 75f4201f-64c7-4864-888f-65c5484df6a5 destroying container for instance c629559b-fb76-4e8b-7cef-e823 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:22:21.259529] Exit status 137 (STDOUT, PROXY)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:22:22.750744] Cell 75f4201f-64c7-4864-888f-65c5484df6a5 successfully destroyed container for instance c629559b-fb76-4e8b-7cef-e823 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:26:26.846099] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:26:27.005087] Updating process: "web" (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:26:56.910730] Uploading app package for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:26:57.203490] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:06.651494] Stopping app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:06.720423] Cell 0a94dc72-cf05-4511-a7be-41f7f13fb18f stopping instance 695f272b-b6c3-4c86-7d14-14f4 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:06.910381] Creating build for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:07.415009] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:07.454373] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:07.454434] Cell 0daf4c70-b1fd-4e3e-be4f-f6c8c5c9bab7 creating container for instance 2549fbe7-39d9-42c8-8036-61ff9f35b984 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:07.801465] Security group rules were updated (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:07.846862] Cell 0daf4c70-b1fd-4e3e-be4f-f6c8c5c9bab7 successfully created container for instance 2549fbe7-39d9-42c8-8036-61ff9f35b984 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:07.938204] Downloading app package... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:07.938240] Downloading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:08.061131] Downloaded build artifacts cache (225B) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:08.724756] Downloaded app package (11.8M) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:08.784565] -----> Nodejs Buildpack version 1.8.39 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:08.993338] -----> Bootstrapping python (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:08.993346] -----> Installing python 3.11.13 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:08.993436] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/28094bfda36b8c744219390b5b628ee3/python_3.11.13_linux_x64_cflinuxfs4_49160849.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:12.545878] -----> Installing binaries (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:12.546025] engines.node (package.json): >=18.0.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:12.546049] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:12.546053] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:12.546065] -----> Installing node 24.3.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:12.546208] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/54b65851559bd58ad3fd2aac68936cd9/node_24.3.0_linux_x64_cflinuxfs4_b6ec3828.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.681597] Using default npm version: 11.4.2 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.681638] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.681660] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/ff849eb7696d3a7f463752a272c9a88e/yarn_1.22.22_linux_noarch_any-stack_83bda680.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.994089] Installed yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.994107] -----> Creating runtime environment (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.995261] NODE_ENV=production (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.995279] NODE_HOME=/tmp/contents636635173/deps/0/node (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.995282] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.995285] NODE_VERBOSE=false (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.995287] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.995290] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.995297] -----> Building dependencies (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.995301] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:14.995303] Rebuilding any native modules (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:15.657173] rebuilt dependencies successfully (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:15.657195] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:15.657201] npm notice New minor version of npm available! 11.4.2 -> 11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:15.657207] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:15.657209] npm notice To update run: npm install -g npm@11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:15.657212] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:15.697046] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:16.330569] up to date in 574ms (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:16.330726] 22 packages are looking for funding (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:16.330735] run `npm fund` for details (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:16.916353] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:30.521469] Exit status 0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:30.521522] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:30.521573] Uploading droplet... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:30.521586] Uploading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:30.555274] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:31.421696] Creating droplet for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:33.650921] Uploaded droplet (67.4M) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:33.662956] Uploading complete (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:33.980187] Cell 0daf4c70-b1fd-4e3e-be4f-f6c8c5c9bab7 stopping instance 2549fbe7-39d9-42c8-8036-61ff9f35b984 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:33.980220] Cell 0daf4c70-b1fd-4e3e-be4f-f6c8c5c9bab7 destroying container for instance 2549fbe7-39d9-42c8-8036-61ff9f35b984 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:36.388028] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({:droplet_guid=>"6bcbcdfe-f0db-4400-bf5b-5b59db9fda68"}) (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:36.665502] Creating revision for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:36.716663] Starting app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:36.925279] Cell 0bf00293-d0e7-483d-8bcc-020f22bbf690 creating container for instance 55df7b0d-c4bb-4de4-6d3a-f103 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:37.406845] Security group rules were updated (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:37.412082] Cell 0daf4c70-b1fd-4e3e-be4f-f6c8c5c9bab7 successfully destroyed container for instance 2549fbe7-39d9-42c8-8036-61ff9f35b984 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:37.471424] Cell 0bf00293-d0e7-483d-8bcc-020f22bbf690 successfully created container for instance 55df7b0d-c4bb-4de4-6d3a-f103 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:37.620598] Downloading droplet... (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:42.105959] Downloaded droplet (67.4M) (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:42.106070] Starting health monitoring of container (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:42.189171] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:42.430508] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:42.829391] > bpfs-agent-srv@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:42.829414] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:43.133559] BPFS Agent server running on port 8080 (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:43.133723] Environment: production (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:45.884879] Container became healthy (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:27:45.926096] Process became ready with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 payload: {"instance"=>"55df7b0d-c4bb-4de4-6d3a-f103", "index"=>0, "cell_id"=>"0bf00293-d0e7-483d-8bcc-020f22bbf690", "ready"=>true, "version"=>"3c619f41-862a-4de0-97cd-c16dcdee8cd0"} (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:28:12.810238] Cell 0a94dc72-cf05-4511-a7be-41f7f13fb18f destroying container for instance 695f272b-b6c3-4c86-7d14-14f4 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:28:12.893718] Exit status 137 (STDOUT, PROXY)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:28:14.195970] Cell 0a94dc72-cf05-4511-a7be-41f7f13fb18f successfully destroyed container for instance 695f272b-b6c3-4c86-7d14-14f4 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:29:38.852985] s4hanad-s-development-40qq74qu-dev-bpfs-agent-srv.cfapps.us10.hana.ondemand.com - [2025-12-10T16:29:38.834826498Z] "GET / HTTP/2.0" 404 0 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "10.0.200.2:26634" "10.0.201.30:61146" x_forwarded_for:"45.119.28.181, 10.0.200.2" x_forwarded_proto:"https" vcap_request_id:"ff185b88-504f-4a5d-704b-9861aec11af3" response_time:0.017977 gorouter_time:0.000073 app_id:"79328cb7-2006-4769-ae17-16b6a7fdbb15" app_index:"0" instance_id:"55df7b0d-c4bb-4de4-6d3a-f103" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000810 tls_time:0.008787 backend_time:0.017905 local_address:"10.0.193.11:14124" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"204afa1e-3d10-4293-8c43-d5e0582ceba6-69399FC5-AEA0265" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"45.119.28.181" x_request_id:"-" x_b3_traceid:"ff185b88504f4a5d704b9861aec11af3" x_b3_spanid:"704b9861aec11af3" x_b3_parentspanid:"-" b3:"ff185b88504f4a5d704b9861aec11af3-704b9861aec11af3" (STDOUT, RTR)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:45:52.491027] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:45:52.622499] Updating process: "web" (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:21.434945] Uploading app package for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:21.730246] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:31.662888] Stopping app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:31.729389] Cell 0bf00293-d0e7-483d-8bcc-020f22bbf690 stopping instance 55df7b0d-c4bb-4de4-6d3a-f103 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:31.933043] Creating build for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:32.381810] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:39.906710] Downloaded nodejs_buildpack (435.9M) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:39.906783] Cell b5c9f49b-5a10-49b5-95f5-158eeaa25c01 creating container for instance 468b8ab7-3931-4aac-bc2c-917891963536 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:40.275285] Security group rules were updated (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:40.329062] Cell b5c9f49b-5a10-49b5-95f5-158eeaa25c01 successfully created container for instance 468b8ab7-3931-4aac-bc2c-917891963536 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:40.454070] Downloading app package... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:40.454113] Downloading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:40.532353] Downloaded build artifacts cache (224B) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:41.220555] Downloaded app package (11.8M) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:41.281555] -----> Nodejs Buildpack version 1.8.39 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:41.531094] -----> Bootstrapping python (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:41.531112] -----> Installing python 3.11.13 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:41.531124] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/28094bfda36b8c744219390b5b628ee3/python_3.11.13_linux_x64_cflinuxfs4_49160849.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:45.114469] -----> Installing binaries (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:45.114545] engines.node (package.json): >=18.0.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:45.114558] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:45.114570] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:45.114615] -----> Installing node 24.3.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:45.114696] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/54b65851559bd58ad3fd2aac68936cd9/node_24.3.0_linux_x64_cflinuxfs4_b6ec3828.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.288273] Using default npm version: 11.4.2 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.288295] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.288307] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/ff849eb7696d3a7f463752a272c9a88e/yarn_1.22.22_linux_noarch_any-stack_83bda680.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.609159] Installed yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.609180] -----> Creating runtime environment (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.610407] NODE_ENV=production (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.610420] NODE_HOME=/tmp/contents1492214463/deps/0/node (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.610423] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.610425] NODE_VERBOSE=false (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.610431] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.610438] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.610450] -----> Building dependencies (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.610455] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:47.610503] Rebuilding any native modules (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.237924] rebuilt dependencies successfully (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.239052] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.239062] npm notice New minor version of npm available! 11.4.2 -> 11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.239066] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.239069] npm notice To update run: npm install -g npm@11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.239073] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.274016] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.863736] up to date in 526ms (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.863875] 22 packages are looking for funding (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:48.863886] run `npm fund` for details (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:46:49.650535] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:01.035132] Exit status 0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:01.035166] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:01.035198] Uploading droplet... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:01.035240] Uploading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:01.101330] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:01.918626] Creating droplet for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:04.139226] Uploaded droplet (67.4M) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:04.153362] Uploading complete (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:04.389469] Cell b5c9f49b-5a10-49b5-95f5-158eeaa25c01 stopping instance 468b8ab7-3931-4aac-bc2c-917891963536 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:04.389500] Cell b5c9f49b-5a10-49b5-95f5-158eeaa25c01 destroying container for instance 468b8ab7-3931-4aac-bc2c-917891963536 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:06.713024] Cell b5c9f49b-5a10-49b5-95f5-158eeaa25c01 successfully destroyed container for instance 468b8ab7-3931-4aac-bc2c-917891963536 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:11.484060] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({:droplet_guid=>"4de34e70-a9d7-4027-aef8-6f41f84ff991"}) (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:11.769461] Creating revision for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:11.851716] Starting app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:13.390654] Cell ab78edc7-64ae-4f26-9fd0-9c8b3a97e82a creating container for instance 0a70b3c9-506d-4006-53f5-2a10 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:13.724527] Security group rules were updated (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:13.787472] Cell ab78edc7-64ae-4f26-9fd0-9c8b3a97e82a successfully created container for instance 0a70b3c9-506d-4006-53f5-2a10 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:14.093716] Downloading droplet... (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:17.337550] Downloaded droplet (67.4M) (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:17.337637] Starting health monitoring of container (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:17.397051] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:17.584903] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:17.921070] > bpfs-agent-srv@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:17.921085] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:18.174247] BPFS Agent server running on port 8080 (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:18.174436] Environment: production (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:19.973732] Container became healthy (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:20.015504] Process became ready with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 payload: {"instance"=>"0a70b3c9-506d-4006-53f5-2a10", "index"=>0, "cell_id"=>"ab78edc7-64ae-4f26-9fd0-9c8b3a97e82a", "ready"=>true, "version"=>"9d882bdc-99c9-47d4-b2b7-4fc709e77d42"} (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:37.907224] Cell 0bf00293-d0e7-483d-8bcc-020f22bbf690 destroying container for instance 55df7b0d-c4bb-4de4-6d3a-f103 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:38.045448] Exit status 137 (STDOUT, PROXY)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:47:39.628742] Cell 0bf00293-d0e7-483d-8bcc-020f22bbf690 successfully destroyed container for instance 55df7b0d-c4bb-4de4-6d3a-f103 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:59:48.645581] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T16:59:48.787085] Updating process: "web" (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:25.834096] Uploading app package for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:26.126465] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:35.496485] Stopping app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:35.556380] Cell ab78edc7-64ae-4f26-9fd0-9c8b3a97e82a stopping instance 0a70b3c9-506d-4006-53f5-2a10 (STDOUT, CELL)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:35.792665] Creating build for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:36.434970] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:43.914656] Downloaded nodejs_buildpack (435.9M) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:43.914741] Cell c85ce09e-1067-419e-9e24-c05dba355d10 creating container for instance be0cf7a6-6ffa-4536-99b7-d2659c2c7c60 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:44.271547] Security group rules were updated (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:44.333742] Cell c85ce09e-1067-419e-9e24-c05dba355d10 successfully created container for instance be0cf7a6-6ffa-4536-99b7-d2659c2c7c60 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:44.583874] Downloading app package... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:44.583962] Downloading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:44.673553] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:45.394966] Downloaded app package (11.8M) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:45.458616] -----> Nodejs Buildpack version 1.8.39 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:45.687017] -----> Bootstrapping python (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:45.687045] -----> Installing python 3.11.13 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:45.687060] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/28094bfda36b8c744219390b5b628ee3/python_3.11.13_linux_x64_cflinuxfs4_49160849.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:49.237422] -----> Installing binaries (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:49.237499] engines.node (package.json): >=18.0.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:49.237517] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:49.237521] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:49.237561] -----> Installing node 24.3.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:49.237654] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/54b65851559bd58ad3fd2aac68936cd9/node_24.3.0_linux_x64_cflinuxfs4_b6ec3828.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.392035] Using default npm version: 11.4.2 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.392058] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.392072] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/ff849eb7696d3a7f463752a272c9a88e/yarn_1.22.22_linux_noarch_any-stack_83bda680.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.725519] Installed yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.725549] -----> Creating runtime environment (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.726722] NODE_ENV=production (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.726747] NODE_HOME=/tmp/contents2621021400/deps/0/node (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.726754] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.726757] NODE_VERBOSE=false (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.726760] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.726767] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.726783] -----> Building dependencies (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.726786] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:51.726789] Rebuilding any native modules (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:52.360993] rebuilt dependencies successfully (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:52.395400] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:52.964642] up to date in 505ms (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:52.964812] 22 packages are looking for funding (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:52.964826] run `npm fund` for details (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:00:53.645290] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:05.115485] Exit status 0 (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:05.115526] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:05.115562] Uploading droplet... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:05.115634] Uploading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:05.147388] Uploaded build artifacts cache (228B) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:06.012830] Creating droplet for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:09.229805] Uploaded droplet (67.4M) (STDOUT, STG)#
+#2025 12 10 17:32:11.697#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:09.241066] Uploading complete (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:09.479926] Cell c85ce09e-1067-419e-9e24-c05dba355d10 stopping instance be0cf7a6-6ffa-4536-99b7-d2659c2c7c60 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:09.479957] Cell c85ce09e-1067-419e-9e24-c05dba355d10 destroying container for instance be0cf7a6-6ffa-4536-99b7-d2659c2c7c60 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:11.196213] Cell c85ce09e-1067-419e-9e24-c05dba355d10 successfully destroyed container for instance be0cf7a6-6ffa-4536-99b7-d2659c2c7c60 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:15.755587] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({:droplet_guid=>"a8b4e2b6-b908-4d1a-9d34-6fe9da5c31d7"}) (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:16.304435] Creating revision for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:16.372326] Starting app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:16.634236] Cell daea3ae1-21cf-44ab-aba4-0998bef68445 creating container for instance 119297f0-275c-4c1a-6586-bd8b (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:16.985622] Security group rules were updated (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:17.052201] Cell daea3ae1-21cf-44ab-aba4-0998bef68445 successfully created container for instance 119297f0-275c-4c1a-6586-bd8b (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:17.277660] Downloading droplet... (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:20.607685] Downloaded droplet (67.4M) (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:20.607772] Starting health monitoring of container (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:20.673094] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:20.865659] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:21.211875] > bpfs-agent-srv@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:21.211898] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:21.471331] BPFS Agent server running on port 8080 (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:21.471552] Environment: production (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:23.306356] Container became healthy (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:23.348704] Process became ready with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 payload: {"instance"=>"119297f0-275c-4c1a-6586-bd8b", "index"=>0, "cell_id"=>"daea3ae1-21cf-44ab-aba4-0998bef68445", "ready"=>true, "version"=>"3aebc726-2eb5-4a3b-8fca-dd8d78f67316"} (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:41.790528] Cell ab78edc7-64ae-4f26-9fd0-9c8b3a97e82a destroying container for instance 0a70b3c9-506d-4006-53f5-2a10 (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:41.867318] Exit status 137 (STDOUT, PROXY)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:01:43.146803] Cell ab78edc7-64ae-4f26-9fd0-9c8b3a97e82a successfully destroyed container for instance 0a70b3c9-506d-4006-53f5-2a10 (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:09:59.640984] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:09:59.799623] Updating process: "web" (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:28.486306] Uploading app package for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:28.775777] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:38.626061] Stopping app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:38.684819] Cell daea3ae1-21cf-44ab-aba4-0998bef68445 stopping instance 119297f0-275c-4c1a-6586-bd8b (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:38.893792] Creating build for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:39.322894] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:46.966409] Downloaded nodejs_buildpack (435.9M) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:46.966477] Cell edd477d1-bb58-4cf9-a8ee-2b7aee173477 creating container for instance 4172c948-75b4-4e5f-b29f-7a2b3f2c252d (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:47.369578] Security group rules were updated (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:47.418182] Cell edd477d1-bb58-4cf9-a8ee-2b7aee173477 successfully created container for instance 4172c948-75b4-4e5f-b29f-7a2b3f2c252d (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:47.548950] Downloading app package... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:47.549008] Downloading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:47.658944] Downloaded build artifacts cache (228B) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:48.381746] Downloaded app package (11.8M) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:48.444545] -----> Nodejs Buildpack version 1.8.39 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:48.680959] -----> Bootstrapping python (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:48.680979] -----> Installing python 3.11.13 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:48.680990] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/28094bfda36b8c744219390b5b628ee3/python_3.11.13_linux_x64_cflinuxfs4_49160849.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:52.293620] -----> Installing binaries (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:52.293667] engines.node (package.json): >=18.0.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:52.293679] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:52.293683] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:52.293741] -----> Installing node 24.3.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:52.293870] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/54b65851559bd58ad3fd2aac68936cd9/node_24.3.0_linux_x64_cflinuxfs4_b6ec3828.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.485263] Using default npm version: 11.4.2 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.485283] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.485295] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/ff849eb7696d3a7f463752a272c9a88e/yarn_1.22.22_linux_noarch_any-stack_83bda680.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.802824] Installed yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.802843] -----> Creating runtime environment (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.804079] NODE_ENV=production (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.804090] NODE_HOME=/tmp/contents2859145852/deps/0/node (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.804097] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.804099] NODE_VERBOSE=false (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.804102] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.804104] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.804113] -----> Building dependencies (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.804116] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:54.804122] Rebuilding any native modules (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:55.450910] rebuilt dependencies successfully (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:55.491073] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:56.084360] up to date in 528ms (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:56.084519] 22 packages are looking for funding (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:56.084543] run `npm fund` for details (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:10:56.798909] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:08.355593] Exit status 0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:08.355643] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:08.355684] Uploading droplet... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:08.355701] Uploading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:08.372310] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:09.236372] Creating droplet for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:12.461632] Uploaded droplet (67.4M) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:12.473034] Uploading complete (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:12.632122] Cell edd477d1-bb58-4cf9-a8ee-2b7aee173477 stopping instance 4172c948-75b4-4e5f-b29f-7a2b3f2c252d (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:12.632154] Cell edd477d1-bb58-4cf9-a8ee-2b7aee173477 destroying container for instance 4172c948-75b4-4e5f-b29f-7a2b3f2c252d (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:14.200428] Cell edd477d1-bb58-4cf9-a8ee-2b7aee173477 successfully destroyed container for instance 4172c948-75b4-4e5f-b29f-7a2b3f2c252d (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:18.591327] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({:droplet_guid=>"0d74b8cd-9fd4-4134-bc9a-36b20812a834"}) (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:18.873416] Creating revision for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:18.935887] Starting app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:19.166986] Cell 2a4bb5b2-6c86-4bc7-93b1-bd14c3b1213c creating container for instance 76f640de-1fde-4ec9-5f60-858f (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:19.500198] Security group rules were updated (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:19.553824] Cell 2a4bb5b2-6c86-4bc7-93b1-bd14c3b1213c successfully created container for instance 76f640de-1fde-4ec9-5f60-858f (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:19.705152] Downloading droplet... (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:23.355865] Downloaded droplet (67.4M) (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:23.355995] Starting health monitoring of container (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:23.420349] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:23.613704] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:23.971797] > bpfs-agent-srv@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:23.971812] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:24.231555] BPFS Agent server running on port 8080 (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:24.231757] Environment: production (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:25.929887] Container became healthy (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:25.968043] Process became ready with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 payload: {"instance"=>"76f640de-1fde-4ec9-5f60-858f", "index"=>0, "cell_id"=>"2a4bb5b2-6c86-4bc7-93b1-bd14c3b1213c", "ready"=>true, "version"=>"61d3e5be-b5b6-46b5-8bb7-d10c70062a70"} (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:44.966229] Cell daea3ae1-21cf-44ab-aba4-0998bef68445 destroying container for instance 119297f0-275c-4c1a-6586-bd8b (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:46.021194] Exit status 137 (STDOUT, PROXY)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:11:46.453749] Cell daea3ae1-21cf-44ab-aba4-0998bef68445 successfully destroyed container for instance 119297f0-275c-4c1a-6586-bd8b (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:00.664442] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:00.827455] Updating process: "web" (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:30.072064] Uploading app package for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:30.384864] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:40.043235] Stopping app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:40.113349] Cell 2a4bb5b2-6c86-4bc7-93b1-bd14c3b1213c stopping instance 76f640de-1fde-4ec9-5f60-858f (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:40.279318] Creating build for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:40.734297] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:40.799061] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:40.799124] Cell f2b7d094-21d3-424a-a933-f749e387b398 creating container for instance 1193d766-7a2b-4b97-8989-e11b60f976fb (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:41.213891] Security group rules were updated (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:41.269345] Cell f2b7d094-21d3-424a-a933-f749e387b398 successfully created container for instance 1193d766-7a2b-4b97-8989-e11b60f976fb (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:41.531097] Downloading app package... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:41.531121] Downloading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:41.624325] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:42.323506] Downloaded app package (11.8M) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:42.389235] -----> Nodejs Buildpack version 1.8.39 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:42.607489] -----> Bootstrapping python (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:42.607501] -----> Installing python 3.11.13 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:42.607584] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/28094bfda36b8c744219390b5b628ee3/python_3.11.13_linux_x64_cflinuxfs4_49160849.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:46.306750] -----> Installing binaries (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:46.306857] engines.node (package.json): >=18.0.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:46.306867] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:46.306883] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:46.306936] -----> Installing node 24.3.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:46.307062] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/54b65851559bd58ad3fd2aac68936cd9/node_24.3.0_linux_x64_cflinuxfs4_b6ec3828.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.475024] Using default npm version: 11.4.2 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.475035] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.475164] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/ff849eb7696d3a7f463752a272c9a88e/yarn_1.22.22_linux_noarch_any-stack_83bda680.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.792375] Installed yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.792390] -----> Creating runtime environment (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.793548] NODE_ENV=production (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.793576] NODE_HOME=/tmp/contents2529701214/deps/0/node (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.793580] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.793582] NODE_VERBOSE=false (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.793585] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.793587] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.793589] -----> Building dependencies (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.793592] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:48.793605] Rebuilding any native modules (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:49.403120] rebuilt dependencies successfully (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:49.404196] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:49.404207] npm notice New minor version of npm available! 11.4.2 -> 11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:49.404210] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:49.404213] npm notice To update run: npm install -g npm@11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:49.404216] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:49.437678] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:50.029672] up to date in 530ms (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:50.029831] 22 packages are looking for funding (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:50.029852] run `npm fund` for details (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:26:50.664211] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:02.100820] Exit status 0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:02.100861] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:02.100894] Uploading droplet... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:02.100957] Uploading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:02.115825] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:03.011538] Creating droplet for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:05.640944] Uploaded droplet (67.4M) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:05.653380] Uploading complete (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:06.001511] Cell f2b7d094-21d3-424a-a933-f749e387b398 stopping instance 1193d766-7a2b-4b97-8989-e11b60f976fb (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:06.001565] Cell f2b7d094-21d3-424a-a933-f749e387b398 destroying container for instance 1193d766-7a2b-4b97-8989-e11b60f976fb (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:07.553090] Cell f2b7d094-21d3-424a-a933-f749e387b398 successfully destroyed container for instance 1193d766-7a2b-4b97-8989-e11b60f976fb (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:09.913036] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({:droplet_guid=>"72d135d9-d6b3-43be-91af-5c07c90efe03"}) (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:10.182281] Creating revision for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:10.239903] Starting app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:10.444529] Cell 73d8e5c1-9e92-4b73-8b9e-85305c62f633 creating container for instance d32b8529-f60d-40fd-47e6-d24d (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:10.804875] Security group rules were updated (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:10.858489] Cell 73d8e5c1-9e92-4b73-8b9e-85305c62f633 successfully created container for instance d32b8529-f60d-40fd-47e6-d24d (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:10.992938] Downloading droplet... (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:14.503105] Downloaded droplet (67.4M) (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:14.503206] Starting health monitoring of container (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:14.585263] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:14.769773] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:15.148629] > bpfs-agent-srv@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:15.148649] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:15.399412] BPFS Agent server running on port 8080 (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:15.399628] Environment: production (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:17.796059] Container became healthy (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:17.823690] Process became ready with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 payload: {"instance"=>"d32b8529-f60d-40fd-47e6-d24d", "index"=>0, "cell_id"=>"73d8e5c1-9e92-4b73-8b9e-85305c62f633", "ready"=>true, "version"=>"ca9e88b7-2d03-4e08-a6b8-64e987e0a7e9"} (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:46.245232] Cell 2a4bb5b2-6c86-4bc7-93b1-bd14c3b1213c destroying container for instance 76f640de-1fde-4ec9-5f60-858f (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:46.363563] Exit status 137 (STDOUT, PROXY)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:27:47.786783] Cell 2a4bb5b2-6c86-4bc7-93b1-bd14c3b1213c successfully destroyed container for instance 76f640de-1fde-4ec9-5f60-858f (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:31:24.370937] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:31:24.533846] Updating process: "web" (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:31:51.789552] Uploading app package for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:31:52.062673] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:02.027509] Stopping app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:02.087984] Cell 73d8e5c1-9e92-4b73-8b9e-85305c62f633 stopping instance d32b8529-f60d-40fd-47e6-d24d (STDOUT, CELL)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:02.263045] Creating build for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:02.730408] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:02.772171] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:02.772231] Cell 19435d30-7cee-4721-bc65-5b0009a37c0e creating container for instance c024f182-4457-4105-a607-31543abe4926 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:03.167026] Security group rules were updated (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:03.228503] Cell 19435d30-7cee-4721-bc65-5b0009a37c0e successfully created container for instance c024f182-4457-4105-a607-31543abe4926 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:03.351479] Downloading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:03.351480] Downloading app package... (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:03.392082] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:04.088660] Downloaded app package (11.8M) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:04.148764] -----> Nodejs Buildpack version 1.8.39 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:04.372189] -----> Bootstrapping python (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:04.372205] -----> Installing python 3.11.13 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:04.372221] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/28094bfda36b8c744219390b5b628ee3/python_3.11.13_linux_x64_cflinuxfs4_49160849.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:07.949992] -----> Installing binaries (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:07.950116] engines.node (package.json): >=18.0.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:07.950132] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:07.950137] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:07.950149] -----> Installing node 24.3.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:07.950262] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/54b65851559bd58ad3fd2aac68936cd9/node_24.3.0_linux_x64_cflinuxfs4_b6ec3828.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.132131] Using default npm version: 11.4.2 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.132146] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.132249] Copy [/tmp/buildpacks/7b49ec78ab50c710/dependencies/ff849eb7696d3a7f463752a272c9a88e/yarn_1.22.22_linux_noarch_any-stack_83bda680.tgz] (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.460879] Installed yarn 1.22.22 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.460892] -----> Creating runtime environment (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.462964] NODE_ENV=production (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.462978] NODE_HOME=/tmp/contents484134355/deps/0/node (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.462982] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.462986] NODE_VERBOSE=false (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.462989] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.462993] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.463008] -----> Building dependencies (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.463012] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:10.463022] Rebuilding any native modules (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.079703] rebuilt dependencies successfully (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.080940] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.080959] npm notice New minor version of npm available! 11.4.2 -> 11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.080969] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.080974] npm notice To update run: npm install -g npm@11.7.0 (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.080977] npm notice (STDOUT, STG)#
+#2025 12 10 17:32:11.698#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-558#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.119280] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2025 12 10 17:32:21.650#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-561#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.743882] up to date in 561ms (STDOUT, STG)#
+#2025 12 10 17:32:21.650#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-561#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.744011] 22 packages are looking for funding (STDOUT, STG)#
+#2025 12 10 17:32:21.650#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-561#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:11.744074] run `npm fund` for details (STDOUT, STG)#
+#2025 12 10 17:32:21.650#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-561#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:12.368101] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:24.130132] Exit status 0 (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:24.130167] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:24.130195] Uploading droplet... (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:24.130253] Uploading build artifacts cache... (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:24.158890] Uploaded build artifacts cache (225B) (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:25.008951] Creating droplet for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:27.243142] Uploaded droplet (67.4M) (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:27.254449] Uploading complete (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:27.567241] Cell 19435d30-7cee-4721-bc65-5b0009a37c0e stopping instance c024f182-4457-4105-a607-31543abe4926 (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:27.567275] Cell 19435d30-7cee-4721-bc65-5b0009a37c0e destroying container for instance c024f182-4457-4105-a607-31543abe4926 (STDOUT, STG)#
+#2025 12 10 17:32:31.753#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-572#
+[PollStageAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:29.909999] Cell 19435d30-7cee-4721-bc65-5b0009a37c0e successfully destroyed container for instance c024f182-4457-4105-a607-31543abe4926 (STDOUT, STG)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:31.838323] Updated app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 ({:droplet_guid=>"4a48c736-6ce7-4e93-bbc9-159d16f27278"}) (STDOUT, API)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:32.077568] Creating revision for app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:32.136489] Starting app with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 (STDOUT, API)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:32.363185] Cell 75ad9361-73a3-4c7a-a612-3fbfb5dcc2a2 creating container for instance 0fef32c6-419a-4bdf-5744-fcbe (STDOUT, CELL)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:32.691857] Security group rules were updated (STDOUT, CELL)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:32.749980] Cell 75ad9361-73a3-4c7a-a612-3fbfb5dcc2a2 successfully created container for instance 0fef32c6-419a-4bdf-5744-fcbe (STDOUT, CELL)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:32.965123] Downloading droplet... (STDOUT, CELL)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:36.494485] Downloaded droplet (67.4M) (STDOUT, CELL)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:36.494609] Starting health monitoring of container (STDOUT, CELL)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:36.559664] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:36.754518] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:37.096904] > bpfs-agent-srv@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:37.096921] > node server.js (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:37.363933] BPFS Agent server running on port 8080 (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:37.364150] Environment: production (STDOUT, APP/PROC/WEB)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:40.582370] Container became healthy (STDOUT, CELL)#
+#2025 12 10 17:32:41.816#Z#DEBUG#0650650a-d5ee-11f0-9c69-eeee0a848721.bpfs-agent-srv#flowable-async-job-executor-thread-581#
+[PollStartAppStatusExecution] 79328cb7-2006-4769-ae17-16b6a7fdbb15 [2025-12-10T17:32:40.612586] Process became ready with guid 79328cb7-2006-4769-ae17-16b6a7fdbb15 payload: {"instance"=>"0fef32c6-419a-4bdf-5744-fcbe", "index"=>0, "cell_id"=>"75ad9361-73a3-4c7a-a612-3fbfb5dcc2a2", "ready"=>true, "version"=>"e577ec60-d64c-4c5e-8784-d91a472e2d8f"} (STDOUT, API)#
